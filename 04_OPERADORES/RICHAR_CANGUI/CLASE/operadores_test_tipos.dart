@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 /**
  * Dart fuertemente tipado 
  * 
@@ -20,14 +18,13 @@ void main() {
 
   print(variablePatito is double); // true
 
-
   // Negado del is -> is! -> el signo de admiración está a la derecha, solo en esta ocasión
   print(variablePatito is! String); // true
 
   // Como obtener el tipo de dato
   print(variablePatito.runtimeType);
 
-  // Cast 
+  // Cast
   final variableX = variablePatito as double;
   print(variableX);
 

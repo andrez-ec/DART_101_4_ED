@@ -19,4 +19,15 @@ void main() {
   print(lista2);
 
   print(lista2[4]);
+
+  //MAP
+  lista2.map((value) {
+    return value + 1;
+  });
+  print(lista2);
+
+  //ForEach
+  lista2.forEach((value) {
+    print(value);
+  });
 }

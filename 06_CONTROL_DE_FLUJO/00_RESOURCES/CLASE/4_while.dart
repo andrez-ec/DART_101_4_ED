@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
   /// while -> Mientras la condición sea verdadera ejecutalo
   /// 1. bandera -> inicializar la condición y definir cuando termina
